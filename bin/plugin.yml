@@ -1,0 +1,14 @@
+name: Minigames
+version: 1.0
+author: Flix Kei
+main: io.flixion.game.Game
+description: A private project requested by https://www.spigotmc.org/members/drox.62307/
+softdepend: [ProtocolLib, Multiverse, WorldGuard]
+
+commands:
+  daily:
+    usage: /<command>
+    description: Open the minigame GUI
+  accept:
+    usage: /<command>
+    description: Used by the action click event, not meant to be used manually!
